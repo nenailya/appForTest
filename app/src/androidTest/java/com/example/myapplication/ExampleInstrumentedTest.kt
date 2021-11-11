@@ -29,7 +29,6 @@ class ExampleInstrumentedTest {
     @get:Rule
     var activityActivityTestRule = ActivityTestRule(MainActivity::class.java)
 
-    //>>Проверяйте навигацию "вперед": кнопки должны открывать соответствующие Activity/Fragment
     @Test
     fun test1Fragment() {
         openAbout()
